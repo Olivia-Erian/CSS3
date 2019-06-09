@@ -1,0 +1,156 @@
+.header{
+    background-image: url(../Images/contactus-back.jpg),linear-gradient(rgba(39,37,37,0),rgb(0,0,0,0.9)) ;
+    background-size: cover; 
+    background-blend-mode:multiply; 
+}
+ 
+.customerline::after{
+    display: block;
+    background: white;
+    height: 0.2em;
+    content: "";
+    position: relative;
+    top: 61%;
+    margin: 0 auto;
+}
+
+.head-txt{
+    font-family: "HelveticaNeueLTStd-ThCn";
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 50%;
+    padding: 17% 25%;
+    animation: example 2s ease-in 1;
+}
+
+  @keyframes example {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: #fff;}
+}
+
+.head-txt p{
+    font-size: 80px;
+    margin: 0;
+}
+
+.head-txt span{
+    font-size: 26px;
+    animation: example 2s ease-in 1;
+    font-family: "HelveticaNeueLTStd-ThCn";
+}
+
+
+.map{
+    background-image: url(../Images/map.jpg);
+    height: 258px;
+    position: relative;
+}
+
+.location{
+    position: absolute;
+    top: 47%;
+    left: 45.5%;
+}
+
+.contact-us{
+    text-align: center;
+    height: 450px;
+    margin: 5% 0;
+    line-height: 45px;
+}
+
+.contact-us p{
+    font-family: "HelveticaNeueLTStd-Md";
+    font-size: 30px;
+    margin: 0;
+    color: #86a64c;
+}
+
+.contact-us span{
+    font-family: "HelveticaNeueLTStd-Cn";
+    font-size: 24px;
+    color: #4d4d4d;
+}
+
+.contact-txt{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-gap: 10%;
+    justify-content: center;
+    width: 80%;
+    margin: 5% auto;
+
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-info span{
+    font-family: "Raleway";
+    font-size: 25px;
+    margin: 0;
+    color: #4d4d4d;
+}
+
+.contact-info p{
+    font-family: "HelveticaNeueLTStd-Cn";
+    font-size: 18px;
+    color: #86a64c;
+    list-style: none;
+    line-height: 30px;
+}
+
+.ask-us{
+    text-align: left;
+}
+.ask-us span{
+    color: #da7c4b;
+    font-family: "Raleway-SemiBold";
+    font-size: 25px;
+}
+
+.ask-us p{
+    color: #cdd2d6;
+    font-family: "open-sans";
+    font-size: 15px;
+    border-bottom: 1px #cdd2d6 solid;
+    padding: 4% 0;
+}
+
+.name-email{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-gap: 6%;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #cdd2d6;
+    font-size: 15px;
+}
+
+.icons i{
+    line-height: 55px;
+    font-size: 20px;
+}
+
+.socialmedia{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.messege{
+    display: grid;    
+    grid-template-columns: 10% 35%;
+    justify-content: right;
+    text-align: right;
+}
+
+.messege p{
+    border-bottom: 0;
+    color: #000000
+}
+

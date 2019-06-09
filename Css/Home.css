@@ -1,0 +1,496 @@
+.header{
+    background-image: url(../Images/home-bg.jpg),linear-gradient(rgba(39,37,37,0),rgb(0,0,0,0.7)) ;
+    background-size: 120%;
+    background-blend-mode:multiply;
+}
+
+.homeline::after{
+    display: block;
+    background: white;
+    height: 0.2em;
+    content: "";
+    position: relative;
+    top: 61%;
+    margin: 0 auto;
+}
+
+
+
+.head-txt{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 65%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+}
+
+.head-txt img{
+    border-radius: 50%;
+    border:  #edeff1 solid 0.3em;
+
+}
+
+.head-details{
+    margin-top: 36vw;
+    text-align: center;
+}
+
+.head-details-img{
+    width: 30%;
+    margin:  0 auto;
+}
+
+.head-txt p{
+    font-size: 1.5em;
+    margin: 0;
+    font-family: "HelveticaNeueLTStd_BdCn";
+}
+
+.head-txt span{
+    font-size: 0.8em;
+    font-family: "HelveticaNeueLTStd-Th";
+}
+
+button{
+    color: #eead73;
+    width: 11vw;
+    font-family: "HelveticaNeueLTStd_BdCn";
+    background-color: white;
+    border: 0;
+    border-radius: 30em;
+    padding: 1%;
+    margin-bottom: 7%;
+}
+
+button:hover{
+    background-color: #86a64c;
+    transition: 1s;
+    color: white
+}
+
+.about-us{
+    padding: 5%;
+    margin: 0 auto;
+    background-color: #edeff1;
+}
+
+.about-us p{
+    font-family: "HelveticaNeueLTStd-Md";
+    text-align: center;
+    color: #31353e;
+    font-size: 30px;
+    margin: 0px auto 60px;
+}
+
+.about-us-MVV{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 3%;
+    width: 80%;
+}
+
+.our-mission-img{
+    background-image: url(../Images/ourMissionHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-missionimg{
+   background-color: rgba(0, 0, 0, 0.404);
+   opacity: 0;
+   padding: 17% 32.5%;
+   width: 35%;
+}
+
+.our-missionimg:hover{
+    opacity: 1;
+    transition: 0.5s ease-in
+}
+
+.our-vision-img{
+    background-image: url(../Images/ourVisionHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-visionimg{
+    background-color: rgba(0, 0, 0, 0.404);
+    opacity: 0;
+    padding: 23.5% 32.5%;
+    width: 35%;
+ }
+ 
+ .our-visionimg:hover{
+     opacity: 1;
+     transition: 0.5s ease-in
+ }
+
+.our-value-img{
+    background-image: url(../Images/ourValuesHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-valueimg{
+    background-color: rgba(0, 0, 0, 0.404);
+    opacity: 0;
+    padding: 17.5% 32.5%;
+    width: 35%;
+ }
+ 
+ .our-valueimg:hover{
+     opacity: 1;
+     transition: 0.5s ease-in
+ }
+
+.about-us-txt p{
+    font-family: "HelveticaNeueLTStd-Md";
+    text-align: center;
+    color: #31353e;
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.about-us-txt span{
+    font-family: "HelveticaNeueLTStd-Cn";
+    text-align: center;
+    color: #31353e;
+    font-size: 13px;
+}
+
+.newsletter{
+    background-image: url(../Images/newsletter-back.jpg);
+    background-color: gray;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: bottom;
+    padding: 5% 0;
+}
+
+.newsletter p{
+    font-family: "HelveticaNeueLTStd-Cn";
+    font-size: 2em;
+    margin: 0;
+    padding: 0 0 1%;
+}
+
+.newsletter span{
+    font-family: "Myriad-pro";
+    font-size: 0.94em
+}
+
+.b1{
+    width: 37vw;
+    color: white;
+    background-color: #ffffff2e;
+    text-align: left;
+    padding: 1% 3%;
+    font-size: 1em;
+    margin-top: 5%;
+    border: 0.04em solid #ffffff7a;
+}
+
+.b2{
+    position: absolute;
+    right: 31%;
+    height: 47px;
+    width: 15vw;
+    margin-top: 5%;
+}
+
+.b2:focus{
+    animation: example 2s ease 1;
+}
+
+@keyframes example {
+    from {right: 31%;}
+    to {right: 54%;}
+}
+
+.ihorica-body{
+    padding: 5% 0;
+}
+
+.ihorica{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    grid-gap: 2%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 2%;
+}
+
+.ihorica p{
+    font-family: "HelveticaNeueLTStd_BdCn";
+    font-size: 1.9em;
+
+}
+
+.ihorica span{
+    font-family: "HelveticaNeueLTStd-ThCn";
+    line-height: 1.5em;
+    font-size: 0.93em;
+}
+
+.ihorica img{
+    width: 65%;
+    border: 2px #f8b882 solid;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+.hiddenimg{
+    display: none
+}
+
+.visimg{
+    display: block;
+}
+
+.ihorica button{
+    padding: 3.7%;;
+    width: 12vw;
+    margin-top: 5%;
+    background-color: #eead73;
+    color: white;
+}
+
+.ihorica button:hover{
+    background-color: #eeac7338;
+    color: #eead73;
+}
+
+.ihorica-body :last-child button{
+    background-color: #86a64c;
+}
+
+.ihorica-body :last-child button:hover{
+    background-color: #87a64c75;
+    color: #87a64c
+}
+
+.ihorica-body :last-child img{
+    border: 2px solid #86a64c;
+}
+
+.brands{
+    padding: 0 5%;
+    background-color: #edeff1;
+}
+
+.brands p{
+    font-family: "HelveticaNeueLTStd-Md";
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 2%;
+    color: #31353e;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 3% 10% 10% 10% 10% 10% 10% 3%;
+    grid-gap: 3%;
+    justify-items: center;
+    justify-content: center;
+}
+
+.logos img{
+    width: 90%;
+}
+
+/* ------------------------------------------------------- */
+
+@media screen and (min-width: 700px) and (max-width:1024px) 
+{
+
+    .head-txt {
+        width: 85%;
+    }
+
+    .head-txt img {
+        width: 60%;
+    }
+
+    .head-txt p {
+        font-size: 1em;
+    }
+
+    .head-txt span {
+        font-size: 0.7em;
+    }
+
+    button {
+        font-size: 0.8em;
+    }
+
+    .about-us p {
+        font-size: 20px;
+        margin: 0px auto 25px;
+    }
+
+    .about-us-MVV {
+        width: 90%;
+    }
+
+    .about-us-txt p {
+        font-size: 15px;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+
+    .about-us-txt span {
+        font-size: 10px;
+    }
+
+    .b1{
+        font-size: 0.8em;
+    }
+
+    .b2 {
+        height: 30px;
+        font-size: 0.8em;
+    }
+
+    .ihorica {
+        width: 75%;
+        grid-gap: 0%;
+    }
+
+    .ihorica p {
+        font-size: 1em;
+    }
+
+    .ihorica span {
+        line-height: 0;
+        font-size: 0.8em;
+    }
+
+    .brands p {
+        font-size: 1.4em;
+    }
+}
+
+
+/* ------------------------------------------------------- */
+@media screen and (min-width: 400px) and (max-width:699px)
+{
+
+    .header {
+        background-size: cover;
+    }
+
+    .head-txt {
+        margin: 20% auto;
+        grid-template-columns: 1fr;
+    }
+
+    .head-txt p {
+        font-size: 1.2em;
+        margin: 2% 0;
+    }
+
+    .head-txt span {
+        font-size: 0.7em;
+    }
+
+    button {
+        width: 15vw;
+        padding: 0;
+        font-size: 0.7em;
+    }
+
+
+/* ---------------------------------- */
+    .about-us p {
+        font-size: 20px;
+        margin: 0px auto 20px;
+    }
+
+    .about-us-MVV {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .our-missionimg {
+        width: 35%;
+        margin-bottom: 5%;
+    }
+
+    .about-us-txt{
+        text-align: center;
+    }
+/* ---------------------------------- */
+
+    .ihorica {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .ihorica-txt{
+        text-align: center;
+    }
+
+    .ihorica img {
+        margin: 0 auto;
+    }
+
+    .hiddenimg{
+        display: block;
+    }
+
+    .visimg{
+        display: none;
+    }
+
+    .ihorica p {
+        font-size: 1.3em;
+    }
+
+    .ihorica span {
+        line-height: 0;
+        font-size: 0.8em;
+    }
+
+    .ihorica button {
+        padding: 1%; 
+    }
+
+/* ---------------------------------- */
+
+    .newsletter p {
+        font-size: 1.5em;
+    }
+
+    .newsletter span {
+        font-size: 0.8em;
+    }
+
+    .b1 {
+        font-size: 0.7em;
+    }
+
+    .b2 {
+        height: 24px;
+        font-size: 0.7em;
+    }
+
+/* ---------------------------------- */
+    .brands p {
+        font-size: 1em;
+    }
+/* ---------------------------------- */
+}

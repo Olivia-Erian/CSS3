@@ -1,0 +1,533 @@
+.header{
+    background-image: url(../Images/blog-back.jpg),linear-gradient(rgba(39,37,37,0),rgb(0,0,0,0.7)) ;
+    background-size: cover; 
+    background-blend-mode:multiply;
+}
+
+.blogline::after{
+    display: block;
+    background: white;
+    width: 100%;
+    height: 0.2em;
+    content: "";
+    position: relative;
+    top: 61%;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+    text-decoration: none
+}
+
+.head-txt{
+    font-family: "HelveticaNeueLTStd-ThCn";
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 28%;
+    padding: 17% 36%;
+    animation: example 2s ease-in 1;
+}
+
+  @keyframes example {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: #fff;}
+  }
+
+.head-txt p{
+    font-size: 55px;
+    margin: 5px;
+}
+
+.head-txt span{ 
+    font-size: 25px;
+    text-align: center;
+    animation: example 2s ease-in 1;
+    font-family: "HelveticaNeueLTStd-ThCn";
+    color: white
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: 15% 64% 15%;
+    background-color: #edeff1;
+    text-align: center;
+    grid-gap: 3%;
+    padding: 5%;
+}
+
+.first-part-leftside{
+    background-color: #fff;
+    padding: 10% 5%;
+}
+
+.left-side p{
+    font-family: "HelveticaNeueLTStd_BdCn";
+    color: #86a64c;
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.left-side span{
+    font-family: "HelveticaNeueLTStd-Cn";
+    font-size: 0.78em;
+    margin-top: 10%;
+}
+
+.first-part-leftside input{
+    background-color: #f3f3f3;
+    border: 0;
+    padding: 4%;
+    color: #da7c4b;
+    margin: 10% auto 0;
+    width: 80%;
+}
+
+.email{
+    position: relative;
+}
+
+.first-part-leftside i{
+    color: #da7c4b;
+    position: absolute;
+    top: 53%;
+    right: 10%;
+}
+
+.leftside img :first-child{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.second-part-leftside{
+    margin: 10% 0;
+    background-image: url(../Images/hamburger.jpg);
+    padding: 37% 0;
+    background-size: cover;
+}
+
+h1::after{
+    content: "";
+    background-color: #dddddd;
+    display: block;
+    border: 0.5px dashed;
+}
+
+h1{
+    margin: 9.5% 0;
+}
+
+.third-part-leftside{
+    padding: 10% 15%;
+    background-color: #fff;
+}
+
+.third-part-leftside ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 9% 0;
+}
+
+.third-part-leftside ul :last-child{
+    text-align: right;
+    color: #da7c4b;
+}
+
+.third-part-leftside ul li{
+    font-size: 0.7em;
+    color: #444444;
+    font-family: "HelveticaNeueLTStd-Bd";
+}
+
+.fourth-part-leftside{
+    padding: 10% 15%;
+    background-color: #fff; 
+    margin: 10% 0;
+}
+
+.picks{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 10%;
+    text-transform: uppercase;
+    font-size: 0.7em
+}
+
+.picks img{
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.first-part-rightside{
+    background-image: url(../Images/potatoes.jpg);
+    background-size: cover;
+    padding: 5% 24%;
+}
+
+.pop-square{
+    background-color: #fff;
+    padding: 5% 0;
+    width: 80%;
+    margin: 26% auto 0;
+}
+
+h5{
+    color: #666666;
+    font-family: "HelveticaNeueLTStd-Th";
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.right-side p{
+    font-family: "HelveticaNeueLTStd_BdCn";
+    color: #86a64c;
+    margin-top: 0;
+    font-size: 1em;
+    margin: 3% 0;
+}
+
+.first-part-rightside span{
+    font-family: "HelveticaNeueLTStd-BdCnO";
+    color: #666666;
+}
+
+button{
+    color: white;
+    width: 10vw;
+    font-family: "HelveticaNeueLTStd_BdCn";
+    background-color: #eead73;
+    border: 0;
+    border-radius: 30em;
+    margin-top: 8%;
+    padding: 3%;
+}
+.jan{
+    background-color: #f3f3f3;
+    border: #dddddd 0.1em solid;
+    width: 15%;
+    margin: 10% auto 0;
+    font-size: 0.9em;
+}
+.second-part-rightside{
+    display: grid;
+    grid-template-columns: 47% 4% 47%;
+    grid-gap: 1%;
+}
+
+.fpart ,.spart{
+    background-color: white;
+    padding: 5%;
+    margin: 10% 0;
+}
+
+
+.spart{
+    height: 54%;
+}
+
+.fpart{
+    
+    margin-bottom: 10%;
+}
+
+.fpart .spart, img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.fpart .spart, span{
+    font-family: "HelveticaNeueLTStd_BdCn";
+    color: #666666;
+    font-size: 0.9em;
+}
+
+.par p{
+    color: #666666;
+    font-family: "HelveticaNeueLTStd-Cn";
+    text-align: left;
+    font-size: 0.8em;
+    margin: 0
+}
+
+.share{
+    display: grid;
+    grid-template-columns: 95% 5%;  
+}
+
+.share :last-child{
+    text-align: right;
+    color: #b0b0b0;
+}
+
+.share :last-child:hover{
+    color: #86a64c; 
+}
+
+.icons{
+    text-align: left;
+}
+
+.icons i{
+    border: dashed #b0b0b0 0.1em;
+    border-radius: 50%;
+    padding: 3%;
+    width: 5%;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.sharealt :first-child{
+    line-height: 35px;
+    color: #b0b0b0; 
+    text-align: right;
+}
+
+.sharealt :first-child:hover{
+    color: #86a64c; 
+}
+
+hr{
+    width: 0.2vw;
+    height: 1270px;
+    background-color: #dbd9d9;
+    border: 0;
+    margin: auto;
+}
+
+.but{
+    padding: 1.3%;
+    margin-top: 0;
+    background-color: #86a64c;
+    position: relative;
+    top: 28%;
+}
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.5em 0 0.5em 0.7em;
+    border-color: transparent transparent transparent #fff;
+    position: relative;
+    left: 21.7em;
+    top: 20px;
+}
+
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.5em 0.7em 0.5em 0;
+    border-color: transparent #fff transparent transparent;
+    position: relative;
+    right: 9%;
+    top: 20px;
+}
+
+.triangle-left::after {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    content: "";
+    background-color: #dbd9d9;
+    left: 8px;
+    top: -5px;
+}
+
+button:hover{
+    background-color: #86a64c;
+    transition: 1s
+}
+@media screen and (min-width: 700px) and (max-width:1024px) 
+{
+    .blogline::after {
+        top: 100%;
+    }
+
+    .head-txt {
+        width: 42%;
+        padding: 17% 29%;
+    }
+
+    .blog {
+        grid-template-columns: 30% 65%;
+        grid-gap: 5%;
+    }
+
+    .pop-square {
+        padding: 5% 3%;
+        width: 95%;
+    }
+
+    h5 {
+        font-size: 0.8em;
+    }
+
+    .right-side p {
+        font-size: 0.7em;
+    }
+
+    .first-part-rightside span {
+        font-size: 0.75em;
+    }
+
+    button {
+        padding: 1%;
+        font-size: 0.7em;
+    }
+
+    .triangle-left {
+        border-width: 0.5em 0 0.5em 0.5em;
+        left: 105%;
+        top: 20px;
+    }
+
+    .triangle-right {
+        border-width: 0.5em 0.5em 0.5em 0;
+        right: 10%;
+        top: 20px;
+    }
+
+    .triangle-left, .triangle-right ::after {
+        display: none;
+    }
+
+    .spart {
+        height: 55%;
+    }
+
+    .icons i {
+        padding: 3%;
+        width: 4%;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+    .share {
+        font-size: 10px;
+    }
+
+    hr {
+        width: 0.2vw;
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width:699px)
+{
+    .head-txt {
+        width: 60%;
+        padding: 17% 20%;
+    }
+
+    .head-txt p {
+        font-size: 30px;
+    }
+
+    .head-txt span {
+        font-size: 20px;
+    }
+/* ---------------------------------- */
+    .blog {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .first-part-leftside i {
+        top: 65%;
+    }
+
+    .left-side p {
+        font-size: 1.2em;
+        margin-bottom: 0
+    }
+
+    .third-part-leftside ul li {
+        font-size: 0.8em;
+    }
+
+    h1::after {
+        border: 0.5px dashed;
+    }
+
+    .picks {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .picks img {
+        width: 60%;
+        margin: 10% auto 5%;
+    }
+
+    .left-side span {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .pop-square {
+        padding: 5% 10%;
+    }
+
+    h5 {
+        font-size: 0.7em;
+    }
+
+    .right-side p {
+        font-size: 0.7em;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .first-part-rightside span {
+        font-size: 12px;
+    }
+
+    button {
+        width: 15vw;
+        font-size: 10px;
+        height: 25px;
+        padding: 0;
+    }
+
+
+    .jan {
+        width: 25%;
+        font-size: 1em;
+    }
+
+    .second-part-rightside {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .triangle-left, .triangle-right {
+        display: none;
+    }
+
+    .fpart, .spart {
+        margin: 10%
+    }
+
+    .but {
+        margin: 5%;
+    }
+
+    .spart {
+        height: 88%;
+        margin-top: 0
+    }
+
+    .icons i {
+        padding: 2%;
+        width: 7%;
+    }
+}

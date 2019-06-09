@@ -1,0 +1,238 @@
+.header{
+    background-image: url(../Images/aboutus-back.jpg),linear-gradient(rgba(39,37,37,0),rgb(0,0,0,0.9)) ;
+    background-size: cover; 
+    background-blend-mode:multiply;
+}
+
+.aboutusline::after{
+    display: block;
+    background: white;
+    width: 100%;
+    height: 0.2em;
+    content: "";
+    position: relative;
+    top: 61%;
+    margin: 0 auto;
+}
+
+.head-txt{
+    font-family: "HelveticaNeueLTStd-ThCn";
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+    width: 30%;
+    padding: 17% 35%;
+    animation: example 2s ease-in 1;
+}
+
+  @keyframes example {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: #fff;}
+}
+
+.head-txt p{
+    font-size: 55px;
+    margin: 5px;
+}
+
+.head-txt span{ 
+    font-size: 25px;
+    text-align: center;
+    animation: example 2s ease-in 1;
+    font-family: "HelveticaNeueLTStd-ThCn";
+}
+
+.about-us{
+    padding: 5%;
+    margin: 0 auto;
+    background-color: #edeff1;
+}
+
+.about-us p{
+    font-family: "HelveticaNeueLTStd-Md";
+    text-align: center;
+    color: #31353e;
+    font-size: 30px;
+    margin: 0px auto 60px;
+}
+
+.about-us-MVV{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 3%;
+    width: 80%;
+}
+
+.our-mission-img{
+    background-image: url(../Images/ourMissionHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-missionimg{
+   background-color: rgba(0, 0, 0, 0.404);
+   opacity: 0;
+   padding: 17% 32.5%;
+   width: 35%;
+}
+
+.our-missionimg:hover{
+    opacity: 1;
+    transition: 0.5s ease-in
+}
+
+.our-vision-img{
+    background-image: url(../Images/ourVisionHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-visionimg{
+    background-color: rgba(0, 0, 0, 0.404);
+    opacity: 0;
+    padding: 23.5% 32.5%;
+    width: 35%;
+ }
+ 
+ .our-visionimg:hover{
+     opacity: 1;
+     transition: 0.5s ease-in
+ }
+
+.our-value-img{
+    background-image: url(../Images/ourValuesHome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.our-valueimg{
+    background-color: rgba(0, 0, 0, 0.404);
+    opacity: 0;
+    padding: 17.5% 32.5%;
+    width: 35%;
+ }
+ 
+ .our-valueimg:hover{
+     opacity: 1;
+     transition: 0.5s ease-in
+ }
+
+.about-us-txt p{
+    font-family: "HelveticaNeueLTStd-Md";
+    text-align: center;
+    color: #31353e;
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.about-us-txt span{
+    font-family: "HelveticaNeueLTStd-Cn";
+    text-align: center;
+    color: #31353e;
+    font-size: 13px;
+}
+
+
+.what-we-do{
+    background-image: url(../Images/aboutus-whatwedo.jpg);
+    height: 380px;
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.what-we-do p{
+    color: white;
+    font-family: "HelveticaNeueLTStd-Thcn";
+    font-size: 100px;
+    line-height: 380px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.our-services{
+    padding: 5% 0 0;
+    margin: 0 auto;
+    background-color: #edeff1;
+}
+
+.our-services p{
+    font-family: "HelveticaNeueLTStd-Md";
+    text-align: center;
+    color: #31353e;
+    font-size: 30px;
+    width: 80%;
+    margin: 0px auto 60px;
+}
+
+.section1-img{
+    background-image: url("../Images/aboutus-horecastar.jpg");
+    background-size: cover
+}
+.sections{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sections img{
+    width: 100%;
+}
+
+.sections-txt{
+    background-color: #82a759;
+    color: white;
+    padding: 5%;
+    z-index: 1;
+    height: 224px;
+}
+
+.section2-txt{
+    background-color: #da7c4b;
+}
+
+.section2-img{
+    background-image: url("../Images/horeca star third.jpg");
+    background-size: cover;
+}
+.section-position{
+    position: relative;
+    top: -130px;
+}
+
+.section-position3{
+    position: relative;
+    top: -400px;
+}
+
+.section3-img{
+    background-image: url("../Images/aboutus-ihoreca.jpg");
+    background-size: cover;
+}
+
+.section3-txt{
+    background-color: #a7a7a7;
+}
+
+.sections-txt p{
+    font-family: "HelveticaNeueLTStd-Md";
+    font-size: 25px;
+    color: white;
+}
+
+.sections-txt span{
+    font-family: "HelveticaNeueLTStd-Thcn";
+    font-size: 13px;
+}
+
+.horeca-star{
+    color: #d67843
+}
